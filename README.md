@@ -1,9 +1,9 @@
 # An Analysis of Kickstarter Campaigns
 
-##Louise's play Fever came close to its fundraising goal in a short amount of time.
+## Louise's play Fever came close to its fundraising goal in a short amount of time.
 
 
-###The purpose is to help Louise to know how different theater campaigns fared in relation to launch date and funding goals, by analyzing the outcomes based on launch date and the outcomes based on Goals.
+### The purpose is to help Louise to know how different theater campaigns fared in relation to launch date and funding goals, by analyzing the outcomes based on launch date and the outcomes based on Goals.
 ## Analysis and Challenges
 
 ### Analysis of Outcomes Based on Launch Date ![Click Image](resources/Outcomes_vs_Goals.png)
@@ -22,7 +22,7 @@ I figured it out by right clicking on empty space in the year area in Pivot tabl
 
 2.The challenge I encountered in Outcomes Based on Goals worksheet, is how to use COUNTIFS with multiple criteria in Excel. Moreover, how to use logical operators such as">=","<=" together" with all those criteria.  I searched some other study resources through internet, and found out that i was missing one more Criteria, the same Column D. It needs to be selected in Kickstarter sheet one more time or type twice in function to perform "5000 to 9999" this price range.
 For example,  =COUNTIFS(Kickstarter!D:D,">=5000",Kickstarter!D:D,"<=9999")
-![Click Here](https://www.ablebits.com/office-addins-blog/2014/07/10/excel-countifs-multiple-criteria/comment-page-2/) for the the study resource I found online.
+[Click Here](https://www.ablebits.com/office-addins-blog/2014/07/10/excel-countifs-multiple-criteria/comment-page-2/) for the the study resource I found online.
 
 ## Results
 
