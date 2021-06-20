@@ -16,11 +16,11 @@ After the goal is set to above $19999, the successful percentage rate keeps decr
 
 ### Challenges and Difficulties Encountered
 
-1.The challenge while creating the Theater Outcomes based on  Launch date pivot table, is how to group the row labels and display it by months, because it automatically groups the Date into Years format.
+1. The challenge while creating the Theater Outcomes based on  Launch date pivot table, is how to group the row labels and display it by months, because it automatically groups the Date into Years format.
 
 I figured it out by right clicking on empty space in the year area in Pivot table by selecting Group. In the **Grouping** dialog, select the **Month** from the **By list Box**.
 
-2.The challenge I encountered in Outcomes Based on Goals worksheet, is how to use COUNTIFS with multiple criteria in Excel. Moreover, how to use logical operators such as">=","<=" together" with all those criteria.  I searched some other study resources through internet, and found out that i was missing one more Criteria, the same Column D. It needs to be selected in Kickstarter sheet one more time or type twice in function to perform "5000 to 9999" this price range.
+2. The challenge I encountered in Outcomes Based on Goals worksheet, is how to use COUNTIFS with multiple criteria in Excel. Moreover, how to use logical operators such as">=","<=" together" with all those criteria.  I searched some other study resources through internet, and found out that i was missing one more Criteria, the same Column D. It needs to be selected in Kickstarter sheet one more time or type twice in function to perform "5000 to 9999" this price range.
 For example,  =COUNTIFS(Kickstarter!D:D,">=5000",Kickstarter!D:D,"<=9999")
 [Click Here](https://www.ablebits.com/office-addins-blog/2014/07/10/excel-countifs-multiple-criteria/comment-page-2/) for the the study resource I found online.
 
@@ -37,8 +37,8 @@ There is lower successful rate followed with higher goals.If Louise set the goal
 
 - What are some limitations of this dataset?
 
-1.These two graphs which didn't show the relation between goal and the months.
-2.The outcomes based on Goal graph couldn't explain why there is a turning point in $35000 to$4000 goal range.
+1. These two graphs which didn't show the relation between goal and the months.
+2. The outcomes based on Goal graph couldn't explain why there is a turning point in $35000 to$4000 goal range.
 
 - What are some other possible tables and/or graphs that we could create?
 
